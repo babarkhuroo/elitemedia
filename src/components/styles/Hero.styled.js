@@ -5,16 +5,27 @@ export const StyledHero = styled.section`
   display: grid;
   overflow: hidden;
   grid-template-columns: 52% 48%;
-  @media ${({ theme }) => theme.breakpoints.md} {
-    display: flex;
-    padding: 2rem 0;
-  }
+
   .harsh-image {
     display: flex;
     align-items: end;
   }
+  .harsh-image img {
+    width: 100%;
+  }
   .last-line {
     font-size: 1.9rem;
+  }
+
+  @media ${({ theme }) => theme.breakpoints.md} {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+
+    p.last-line {
+      font-size: 16px;
+      margin-top: 10px;
+    }
   }
 `
 

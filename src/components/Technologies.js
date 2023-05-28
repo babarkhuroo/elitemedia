@@ -23,14 +23,14 @@ function Technologies() {
       </ul>
 
       <h2>
-        2. Armor Car Care <span>Industry</span>
+        2. Armor Car Care <span>Local Service</span>
       </h2>
       <p>Car Wash Service in Sharjah</p>
       <ul>
         <li>• Google Ads Leads Results: 153 leads</li>
       </ul>
       <h2>
-        3. Oakland-OdooERP <span>Industry</span>
+        3. Oakland-OdooERP <span>ERP Service</span>
       </h2>
       <p>
         Leading Odoo service provider in the GCC region, with a strong presence
@@ -40,7 +40,7 @@ function Technologies() {
         <li>• Google Ads Results: 364 leads</li>
       </ul>
       <h2>
-        4. Remal Security <span>Industry</span>
+        4. Remal Security <span>Service</span>
       </h2>
       <p>Home Automation and CCTV Company</p>
       <ul>
@@ -48,7 +48,7 @@ function Technologies() {
         <li>• Meta Leads Results: 31 leads</li>
       </ul>
       <h2>
-        5. Kaizu - Japanese Restaurant <span>Industry</span>
+        5. Kaizu - Japanese Restaurant <span>Restaurant</span>
       </h2>
       <p>Japanese Restaurants</p>
       <ul>
@@ -64,7 +64,7 @@ function Technologies() {
         <li>• Meta Leads Results: 101 contacts</li>
       </ul>
       <h2>
-        7. Al-Saqer Property Management <span>Industry</span>
+        7. Al-Saqer Property Management <span>Real Estate</span>
       </h2>
       <p>Property Management</p>
       <ul>
@@ -74,7 +74,7 @@ function Technologies() {
         <li>• Linkedin Brand Awareness Results: 316,000 Impression</li>
       </ul>
       <h2>
-        8. R777: Equestrian Center <span>Industry</span>
+        8. R777: Equestrian Center <span>Local Service</span>
       </h2>
       <p>Equestrian Center</p>
       <ul>

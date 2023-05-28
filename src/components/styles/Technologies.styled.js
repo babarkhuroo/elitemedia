@@ -15,6 +15,7 @@ export const StyledTechnologies = styled.section`
     max-width: 70%;
     padding-bottom: 15px;
     font-style: italic;
+    padding-left: 20px;
   }
   ul {
     // display: flex;
@@ -61,6 +62,12 @@ export const StyledTechnologies = styled.section`
     }
   }
   @media ${({ theme }) => theme.breakpoints.sm} {
+    h2 {
+      font-size: 20px;
+    }
+    h2 span {
+      font-size: 18px;
+    }
     p {
       font-size: 16px;
       max-width: 100%;
@@ -68,11 +75,12 @@ export const StyledTechnologies = styled.section`
     ul {
       flex-direction: column;
       gap: 0;
-      margin-bottom: 0;
+      margin-bottom: 30px;
     }
     li {
       max-width: 100%;
       flex-direction: row;
+      font-size: 16px;
     }
     div {
       margin-left: 1rem;

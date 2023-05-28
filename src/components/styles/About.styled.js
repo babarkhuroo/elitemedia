@@ -54,11 +54,17 @@ export const ProjectContainer = styled.section`
     flex-direction: column;
     padding: 1rem 0;
   }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 28px;
+  }
 `
 
 export const ProjectDiv = styled.div`
   width: 400px;
-  min-height: 820px;
+  min-height: 730px;
   background-color: #212121;
   border-radius: 10px;
   overflow: hidden;
@@ -90,6 +96,7 @@ export const ProjectDiv = styled.div`
     font-size: 1.5rem;
     padding: 0 20px;
     margin-bottom: 30px;
+    text-align: center;
     /* display: flex; */
     /* justify-content: center; */
     /* flex-wrap: wrap; */
@@ -131,9 +138,9 @@ export const ProjectDiv = styled.div`
     font-size: 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
-    display: inline-block;
+    display: block;
     width: max-content;
-    margin-left: 80px;
+    margin: 0 auto;
     padding: 10px 25px;
     border-radius: 5px;
   }
@@ -159,6 +166,12 @@ export const ProjectDiv = styled.div`
     width: 100%;
     p {
       padding: 0 2rem;
+    }
+    .light-box .p2 {
+      font-size: 36px;
+    }
+    .light-box div a {
+      font-size: 22px;
     }
   }
 `
