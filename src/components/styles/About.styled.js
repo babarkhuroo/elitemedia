@@ -80,7 +80,7 @@ export const ProjectDiv = styled.div`
   }
   p {
     padding: 0 4rem;
-    /* text-align: justify; */
+    text-align: center;
     font-style: italic;
     font-size: 1.6rem;
     margin-bottom: 2rem;
