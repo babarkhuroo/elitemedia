@@ -5,6 +5,23 @@ export const StyledFooter = styled.footer`
   width: 85%;
   padding: 1rem;
   margin: 20px auto;
+  & + .float-whatsapp {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+  }
+  & + .float-whatsapp a {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #2ccd47;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  & + .float-whatsapp svg {
+    width: 3rem;
+    height: 3rem;
+  }
   section {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
