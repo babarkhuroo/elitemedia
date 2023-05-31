@@ -4,12 +4,13 @@ import harshImg from '../assets/pareto-removebg-preview.png'
 import profileImg from '../assets/profile.png'
 import { BreakLine } from './styles/GlobalStyles'
 import intro from '../assets/mj_elite_media_intro.mp4'
+import placeholder from '../assets/placeholder.png'
 
 function Hero() {
   return (
     <>
       <div className='video-container'>
-        <video controls width='250'>
+        <video controls width='250' poster={placeholder}>
           <source src={intro} type='video/mp4'></source>
         </video>
       </div>
