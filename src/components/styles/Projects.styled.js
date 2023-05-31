@@ -39,6 +39,10 @@ export const ProjectDiv = styled.div`
     font-size: 1.6rem;
     margin-bottom: 2rem;
   }
+  &:nth-child(5) p.stack,
+  &:nth-child(5) ul {
+    display: none;
+  }
   .stack {
     width: max-content;
     margin: 20px auto;

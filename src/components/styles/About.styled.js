@@ -12,13 +12,14 @@ export const ProjectContainer = styled.section`
   justify-content: space-evenly;
   gap: 3rem;
 
-  div:nth-child(4) .light-box .p1,
-  div:nth-child(4) .light-box .p2,
+  div:nth-child(5) .light-box .p1,
+  div:nth-child(5) .light-box .p2,
+  div:nth-child(4) .light-box .p2 span,
   div .light-box .p3 {
     display: none;
   }
 
-  div:nth-child(4) .light-box .p3 {
+  div:nth-child(5) .light-box .p3 {
     display: block;
     font-style: normal;
     font-weight: 500;
@@ -127,7 +128,7 @@ export const ProjectDiv = styled.div`
   .light-box .p2 {
     text-align: center;
     color: #283593;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     font-style: unset;
   }

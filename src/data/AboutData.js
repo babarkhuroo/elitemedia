@@ -10,7 +10,7 @@ export const AboutData = [
       'Social Media Paid Ads (2 Platforms)',
       'Monthly Reporting',
     ],
-    price: '500',
+    price: '1,800',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const AboutData = [
       'Advanced Website SEO Optimization',
       'Weekly Reporting',
     ],
-    price: '1000',
+    price: '3,700',
   },
   {
     id: 3,
@@ -43,11 +43,26 @@ export const AboutData = [
       'Ultra Advanced Website SEO Optimization',
       'Weekly Reporting',
     ],
-    price: '3000',
+    price: '11,000',
   },
   {
     id: 4,
     heading: 'Package 4',
+    title: '1 ON 1 Mentorship',
+    description:
+      'Learn Digital Marketing in just 60 days and 3 hours a week with my 1-on-1 Mentorship Course!',
+    tags: [
+      'Learn how to Ideal business Client Profiling',
+      'Learn all types of Social Media Paid Ads',
+      'Learn Google Ads',
+      'Learn Email Marketing & SMS Marketing',
+      'Learn Website SEO Optimization',
+    ],
+    price: '14,000',
+  },
+  {
+    id: 5,
+    heading: 'Package 5',
     title: 'Tailored Package',
     description:
       'The ultimate customizable package designed to cater to your specific need and goals.',

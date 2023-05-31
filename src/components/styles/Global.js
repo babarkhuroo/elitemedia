@@ -22,4 +22,25 @@ export const GlobalStyles = createGlobalStyle`
     li {
         list-style: none;
     }
+
+    .video-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .video-container video {
+        width: 90%;
+        height: auto;
+    }
+
+    @media ${({ theme }) => theme.breakpoints.md} {
+        .video-container video {
+            width: 100%;
+        }
+    }
+    @media ${({ theme }) => theme.breakpoints.sm} {
+        .video-container video {
+            width: 100%;
+        }
+    }
 `

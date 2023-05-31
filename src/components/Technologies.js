@@ -16,10 +16,7 @@ function Technologies() {
       </p>
       <ul>
         <li>• Google Ads Lead Results: 544 leads</li>
-        <li>
-          • Social Media (Facebook & Instagram): Around 1.9 million impressions
-          in one month
-        </li>
+        <li>• Social Media (Facebook & Instagram): 2 million impressions</li>
       </ul>
 
       <h2>
@@ -48,7 +45,7 @@ function Technologies() {
         <li>• Meta Leads Results: 31 leads</li>
       </ul>
       <h2>
-        5. Kaizu - Japanese Restaurant <span>Restaurant</span>
+        5. Kaizu - Japanese <span>Restaurant</span>
       </h2>
       <p>Japanese Restaurants</p>
       <ul>

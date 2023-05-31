@@ -33,13 +33,13 @@ function About() {
               <div className='light-box'>
                 <p className='p1'>Starting at</p>
                 <p className='p2'>
-                  ${price}
+                  AED {price}
                   <span>/mo</span>
                 </p>
                 <p className='p3'>
                   The pricing for Package 4 will be determined based on the
-                  services and platforms you select, ensuring that you get a
-                  fair and competitive price for the customized solution.
+                  services and platforms selected, ensuring that you get a fair
+                  and competitive price for the customized solution.
                 </p>
                 <div>
                   <a
