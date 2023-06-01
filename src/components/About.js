@@ -37,7 +37,7 @@ function About() {
                   <span>/mo</span>
                 </p>
                 <p className='p3'>
-                  The pricing for Package 4 will be determined based on the
+                  The pricing for Package 5 will be determined based on the
                   services and platforms selected, ensuring that you get a fair
                   and competitive price for the customized solution.
                 </p>
