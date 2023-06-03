@@ -11,7 +11,7 @@ function Footer() {
         <InlineWidget
           id='calendly'
           url='https://calendly.com/book_with_mjelitemedia'
-          styles={{ height: '800px' }}
+          styles={{ maxHeight: '700px', height: '400px' }}
         />
       </div>
       <StyledFooter>
