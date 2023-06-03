@@ -2,10 +2,18 @@ import resume from '../assets/my_resume.pdf'
 import { FaWhatsapp } from 'react-icons/fa'
 import { socialLinks } from '../data/NavData'
 import { StyledFooter } from './styles/Footer.styled'
+import { InlineWidget } from 'react-calendly'
 
 function Footer() {
   return (
     <>
+      <div id='calendly'>
+        <InlineWidget
+          id='calendly'
+          url='https://calendly.com/book_with_mjelitemedia'
+          styles={{ height: '800px' }}
+        />
+      </div>
       <StyledFooter>
         <section>
           <h4>Phone/WhatsApp</h4>

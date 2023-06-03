@@ -14,6 +14,9 @@ function Hero() {
           <source src={intro} type='video/mp4'></source>
         </video>
       </div>
+      <div className='calendly-btn'>
+        <a href={'#calendly'}>Schedule Your Appointment</a>
+      </div>
       <StyledHero>
         <HeroArticle>
           <h2>The Harsh Reality</h2>

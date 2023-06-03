@@ -33,14 +33,45 @@ export const GlobalStyles = createGlobalStyle`
         height: auto;
     }
 
+    .calendly-btn a {
+        display: block;
+        font-size: 3rem;
+        background-color: #c2185b;
+        width: fit-content;
+        margin: 5rem auto 0;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .calendly-btn.btn-services {
+        margin: 5rem auto;
+    }
+
     @media ${({ theme }) => theme.breakpoints.md} {
         .video-container video {
             width: 100%;
+        }
+        .calendly-btn a {
+            font-size: 2rem;
+            margin: 4rem auto 0;
+            padding: 1rem 2rem;
+        }
+        .calendly-btn.btn-services {
+            margin: 3rem auto;
         }
     }
     @media ${({ theme }) => theme.breakpoints.sm} {
         .video-container video {
             width: 100%;
+        }
+        .calendly-btn a {
+            font-size: 1.7rem;
+            margin: 4rem auto 0;
+            padding: 1rem;
+        }
+        .calendly-btn.btn-services {
+            margin: 3rem auto;
         }
     }
 `
