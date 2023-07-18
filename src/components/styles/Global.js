@@ -29,7 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     .video-container video {
-        width: 90%;
+        width: 30%;
         height: auto;
     }
 
