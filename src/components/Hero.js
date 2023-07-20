@@ -10,9 +10,7 @@ function Hero() {
   return (
     <>
       <div className='video-container'>
-        <video controls width='250' poster={placeholder}>
-          <source src={intro} type='video/mp4'></source>
-        </video>
+        <iframe width="315" height="560" src="https://www.youtube.com/embed/qQRSXRfeHuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div className='calendly-btn'>
         <a href={'#calendly'}>Schedule Your Appointment</a>
