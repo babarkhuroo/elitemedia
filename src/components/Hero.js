@@ -1,9 +1,7 @@
-import BackgroundAnimation from './BackgroundAnimation'
 import { StyledHero, HeroArticle } from './styles/Hero.styled'
 import harshImg from '../assets/pareto-removebg-preview.png'
 import profileImg from '../assets/profile.png'
 import { BreakLine } from './styles/GlobalStyles'
-import placeholder from '../assets/placeholder.png'
 
 function Hero() {
   return (
