@@ -33,7 +33,7 @@ function About() {
               <div className='light-box'>
                 <p className='p1'>Starting at</p>
                 <p className='p2'>
-                  USD {price}
+                  AED {price}
                   <span>/mo</span>
                 </p>
                 <p className='p3'>
