@@ -108,9 +108,9 @@ function Technologies() {
           </div>
         </li>
       </ul> */}
-      <div className='calendly-btn btn-services'>
+      {/* <div className='calendly-btn btn-services'>
         <a href={'#calendly'}>Arrange Your Consultation</a>
-      </div>
+      </div> */}
     </StyledTechnologies>
   )
 }

@@ -7,13 +7,13 @@ import { InlineWidget } from 'react-calendly'
 function Footer() {
   return (
     <>
-      <div id='calendly'>
+      {/* <div id='calendly'>
         <InlineWidget
           id='calendly'
           url='https://calendly.com/book_with_mjelitemedia'
           styles={{ maxHeight: '700px', height: '400px' }}
         />
-      </div>
+      </div> */}
       <StyledFooter>
         <section>
           <h4>Phone/WhatsApp</h4>

@@ -39,9 +39,9 @@ function Projects() {
           )
         })}
       </ProjectContainer>
-      <div className='calendly-btn btn-services'>
+      {/* <div className='calendly-btn btn-services'>
         <a href={'#calendly'}>Book Your Appointment</a>
-      </div>
+      </div> */}
     </StyledProjects>
   )
 }
